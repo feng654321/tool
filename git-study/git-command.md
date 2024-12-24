@@ -51,7 +51,7 @@ git config user.email "evan.he@nokia-sbell.com"  # Set the email used by gerrit 
 git config --get user.email                      # Get the email used by gerrit review
 ```
 
-Git alias configure
+## Git alias configure
 ```
 C:\Users\<LoginName>\.gitconfig
 [alias]
@@ -62,3 +62,12 @@ st = status
 br = branch
 hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 ```
+
+## gitignore
+```
+  .gitignore文件，用于忽略不需要提交的文件。有了".gitignore"文件，用户可以不用指定每一个需要提交的文件，帮助提高代码提交的效率。
+```
+1. 在repo下，新建 ".gitignore"文件
+2. 在".gitignore"文件中，添加要过滤的文件，如下：
+   ![image](https://github.com/user-attachments/assets/4168f61b-7d2c-427c-8373-6da2c4a8947c)
+
