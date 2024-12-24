@@ -1,9 +1,9 @@
 # git squash 
-$ git checkout master
-$ git pull origin master
-$ git checkout -b branchName
-$ git pull --rebase origin branchName
-$ git rebase -i master
+git checkout master
+git pull origin master
+git checkout -b branchName
+git pull --rebase origin branchName
+git rebase -i master
 
 Fix conflicts
 
